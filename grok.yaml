@@ -1,0 +1,17 @@
+global:
+    config_version: 2
+input:
+    type: file
+    path: /opt/example/examples.log
+    readall: true
+grok:
+    patterns_dir: ./patterns
+metrics:
+    - type: counter
+      name: grok_example_lines_total
+      help: Counter metric example with labels.
+      match: '%{DATE} %{TIME} %{USER:user} %{NUMBER}'
+      labels:
+          user: '{{.user}}'
+server:
+    port: 9144
