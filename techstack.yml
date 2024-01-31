@@ -1,0 +1,47 @@
+repo_name: rongfengliang/grok-exporter-docker-compose
+report_id: 32ba3fb5e34d143c8bc2c2a262eda5b9
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:03:00+00:00'
+requested_by: rongfengliang
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/grok-exporter-docker-compose
+  detection_source: Repo Metadata
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/rongfengliang/grok-exporter-docker-compose/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rongfengliang
+  last_updated_on: 2019-08-13 02:27:21.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/rongfengliang/grok-exporter-docker-compose/blob/master/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: rongfengliang
+  last_updated_on: 2019-08-13 02:27:21.000000000 Z
